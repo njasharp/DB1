@@ -1,4 +1,28 @@
 Game,Platform,Region,Downloads,Revenue,Esports Participation,Avg. Weekly Hours
+PUBG Mobile,Mobile,Saudi,5000000,2000000,73,8.7
+Call of Duty: Mobile,Mobile,Saudi,4000000,1800000,65,7.8
+Clash of Clans,Mobile,Saudi,3500000,2200000,68,8
+Genshin Impact,Mobile,Saudi,4500000,2400000,70,8.5
+Mobile Legends,Mobile,Saudi,3000000,1500000,60,6.5
+Free Fire,Mobile,Saudi,4000000,2000000,65,7.8
+Pokemon GO,Mobile,Saudi,4000000,1800000,65,7.8
+Brawl Stars,Mobile,Saudi,3500000,2200000,68,8
+Fortnite,PC,Saudi,3000000,1500000,60,6.5
+League of Legends,PC,Saudi,2000000,1300000,55,5.3
+Minecraft,PC,Saudi,2500000,1200000,58,6
+Valorant,PC,Saudi,2000000,1200000,55,5.3
+CS,PC,Saudi,3000000,1500000,55,5.3
+World of Warcraft,PC,Saudi,2000000,1300000,55,5.3
+Dota 2,PC,Saudi,2000000,1300000,55,5.3
+Cyberpunk 2077,PC,Saudi,3000000,1500000,60,6.5
+FIFA 22,Console,Saudi,1000000,500000,50,4.2
+Assassin's Creed,Console,Saudi,1500000,700000,45,3.8
+Apex Legends,Console,Saudi,800000,600000,48,4
+Rocket League,Console,Saudi,1000000,600000,45,4.2
+Overwatch,Console,Saudi,800000,600000,48,4
+Hearthstone,Console,Saudi,1500000,700000,45,3.8
+Diablo Immortal,Console,Saudi,800000,600000,48,4
+Rainbow Six Siege,Console,Saudi,600000,600000,48,4
 Genshin Impact,Mobile,Egypt,4500000,2400000,70,8.5
 Clash of Clans,Mobile,Egypt,3500000,2200000,68,8
 Mobile Legends,Mobile,Egypt,3000000,1500000,60,6.5
@@ -47,27 +71,3 @@ Overwatch,Console,UAE,800000,600000,48,4
 Hearthstone,Console,UAE,1500000,700000,45,3.8
 Diablo Immortal,Console,UAE,800000,600000,48,4
 Rainbow Six Siege,Console,UAE,600000,600000,48,4
-PUBG Mobile,Mobile,Saudi,5000000,2000000,73,8.7
-Call of Duty: Mobile,Mobile,Saudi,4000000,1800000,65,7.8
-Clash of Clans,Mobile,Saudi,3500000,2200000,68,8
-Genshin Impact,Mobile,Saudi,4500000,2400000,70,8.5
-Mobile Legends,Mobile,Saudi,3000000,1500000,60,6.5
-Free Fire,Mobile,Saudi,4000000,2000000,65,7.8
-Pokemon GO,Mobile,Saudi,4000000,1800000,65,7.8
-Brawl Stars,Mobile,Saudi,3500000,2200000,68,8
-Fortnite,PC,Saudi,3000000,1500000,60,6.5
-League of Legends,PC,Saudi,2000000,1300000,55,5.3
-Minecraft,PC,Saudi,2500000,1200000,58,6
-Valorant,PC,Saudi,2000000,1200000,55,5.3
-CS,PC,Saudi,3000000,1500000,55,5.3
-World of Warcraft,PC,Saudi,2000000,1300000,55,5.3
-Dota 2,PC,Saudi,2000000,1300000,55,5.3
-Cyberpunk 2077,PC,Saudi,3000000,1500000,60,6.5
-FIFA 22,Console,Saudi,1000000,500000,50,4.2
-Assassin's Creed,Console,Saudi,1500000,700000,45,3.8
-Apex Legends,Console,Saudi,800000,600000,48,4
-Rocket League,Console,Saudi,1000000,600000,45,4.2
-Overwatch,Console,Saudi,800000,600000,48,4
-Hearthstone,Console,Saudi,1500000,700000,45,3.8
-Diablo Immortal,Console,Saudi,800000,600000,48,4
-Rainbow Six Siege,Console,Saudi,600000,600000,48,4
