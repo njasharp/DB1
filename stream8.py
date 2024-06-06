@@ -43,3 +43,7 @@ if 'Date' in filtered_data.columns:
     fig_line = px.line(filtered_data, x='Date', y=selected_metric, color='Game',
                        title=f"{selected_platform} Games in {selected_region} - {selected_metric} Over Time")
     st.plotly_chart(fig_line)
+    
+st.subheader('Data 2024 ')
+image_path = "d-market.png"
+st.image(image_path, caption='Info', use_column_width=True)
