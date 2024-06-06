@@ -11,7 +11,7 @@ st.title("MENA Games Market Analysis")
 # Filter options
 platforms = data['Platform'].unique()
 regions = data['Region'].unique()
-metrics = ['Downloads', 'Revenue', 'Avg. Weekly Hours']
+metrics = ['Downloads', 'Revenue', 'Avg. Weekly Hours','Esports Participation']
 
 selected_platform = st.selectbox('Select Platform', platforms)
 selected_region = st.selectbox('Select Region', regions)
