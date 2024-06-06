@@ -71,3 +71,4 @@ report_text = """
 """
 
 st.markdown(report_text)
+st.info("built by DW 6-5-24 - v1")
