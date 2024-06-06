@@ -49,4 +49,4 @@ fig.update_layout(
 
 # Display plot in Streamlit
 st.plotly_chart(fig)
-st.warning("built by DW 6-5-24 - v1")
+st.info("built by DW 6-5-24 - v1")
