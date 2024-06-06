@@ -44,6 +44,27 @@ if 'Date' in filtered_data.columns:
                        title=f"{selected_platform} Games in {selected_region} - {selected_metric} Over Time")
     st.plotly_chart(fig_line)
     
-st.subheader('Data 2024 ')
+st.subheader('Asia & MENA Gaming Markets ')
 image_path = "d-market.png"
-st.image(image_path, caption='Info', use_column_width=True)
+st.image(image_path, caption='Data 2024 -https://venturebeat.com/games/niko-partners-mena-asia-market-report-2024/', use_column_width=True)
+
+st.title('Niko Partners Report on Asia & MENA Gaming Markets')
+
+# Display the report text
+report_text = """
+## Key Updates:
+
+- The combined revenue for Asia & MENA gaming markets was $85.5 billion in 2023, marking a 4.6% increase from the previous year.
+- For 2024, the forecasted growth rate is 2.5%, with expected revenue reaching $87.6 billion.
+- By 2028, the market is projected to approach nearly $100 billion ($97.1 billion) with a CAGR of 2.5%.
+
+## Top Items:
+
+- The number of gamers in Asia & MENA was 1.61 billion in 2023, over half of the world’s total gamers.
+- India is projected to contribute 72% of the growth in gamers, adding 277 million new gamers by 2028.
+- The MENA region is expected to be the second fastest growing market.
+- Mobile gaming dominates with 93.7% of gamers playing on mobile devices.
+- By 2028, there will be an estimated 1.87 billion mobile gamers, 606 million PC gamers, and 100 million console gamers.
+"""
+
+st.markdown(report_text)
