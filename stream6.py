@@ -36,8 +36,8 @@ x_axis = st.selectbox('Select X-axis', columns)
 y_axis = st.selectbox('Select Y-axis', columns)
 
 # Scatter plot
-fig = px.scatter(data, x=x_axis, y=y_axis, title=f'Scatter Plot: {x_axis} vs {y_axis}')
-
+fig = px.scatter(data, x=x_axis, y=y_axis, color=data.index,
+                 title=f'Scatter Plot: {x_axis} vs {y_axis}')
 # Add labels and title with increased font size
 fig.update_layout(
     title_font_size=24,
