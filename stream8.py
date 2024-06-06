@@ -7,7 +7,7 @@ data = pd.read_csv('mena_games.csv')
 
 # Streamlit app title
 st.title("MENA Games Market Analysis")
-st.header("Dashboard", divider='green')
+st.header("Dashboard", divider='blue')
 
 # Filter options
 platforms = data['Platform'].unique()
