@@ -2,6 +2,11 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+# Set the default layout to wide
+st.set_page_config(page_title="MENA Games Market Analysis", page_icon=":video_game:", layout="centered")
+
+# Enable dark mode
+st.markdown("<style>body {background-color: #212121;}</style>", unsafe_allow_html=True)
 # Load data
 data = pd.read_csv('mena_games.csv')
 
