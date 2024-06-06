@@ -65,6 +65,9 @@ report_text = """
 - The MENA region is expected to be the second fastest growing market.
 - Mobile gaming dominates with 93.7% of gamers playing on mobile devices.
 - By 2028, there will be an estimated 1.87 billion mobile gamers, 606 million PC gamers, and 100 million console gamers.
+
+“Asia and MENA remain critical in the global games market, and drivers to the growth in these regions include localization, increase in participation by female gamers, government support for esports, growth of out-of-app monetization of mobile games, and rising spending power.” said Lisa Hanson, CEO of Niko Partners. “In order to gain meaningful access, companies must get to know the local market realities and clearly understand the context behind the data they use for their strategic planning.”
+
 """
 
 st.markdown(report_text)
