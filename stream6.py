@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
-#import numpy as np
-import matplotlib.pyplot as plt
-#import ploty.express as px
+import plotly.express as px
 
 st.set_page_config (layout="wide")
 
@@ -24,6 +22,7 @@ st.write(df)
 
 st.subheader("**_chart:_** plot")
 
+# Load data
 data = pd.read_csv('aidata.csv')
 
 # Streamlit app title
@@ -37,13 +36,16 @@ x_axis = st.selectbox('Select X-axis', columns)
 y_axis = st.selectbox('Select Y-axis', columns)
 
 # Scatter plot
-fig, ax = plt.subplots(figsize=(6, 4))  # Adjust figsize to reduce the size by 50%
-ax.scatter(data[x_axis], data[y_axis])
+fig = px.scatter(data, x=x_axis, y=y_axis, title=f'Scatter Plot: {x_axis} vs {y_axis}')
 
-# Add labels and title
-ax.set_xlabel(x_axis, fontsize=7)
-ax.set_ylabel(y_axis, fontsize=7)
-ax.set_title(f'Scatter Plot: {x_axis} vs {y_axis}', fontsize=8)
+# Add labels and title with increased font size
+fig.update_layout(
+    title_font_size=24,
+    xaxis_title=x_axis,
+    yaxis_title=y_axis,
+    xaxis_title_font_size=20,
+    yaxis_title_font_size=20
+)
 
 # Display plot in Streamlit
-st.pyplot(fig)
+st.plotly_chart(fig)
