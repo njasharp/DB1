@@ -12,7 +12,7 @@ data = pd.read_csv('sea_games.csv')
 
 # Streamlit app title
 st.title("SEA-6 Gaming Market Analysis")
-st.header("Dashboard", divider='red')
+st.divider()
 
 # Filter options
 platforms = data['Platform'].unique()
