@@ -54,7 +54,7 @@ st.subheader('Asia & MENA Gaming Markets ')
 image_path = "d-market.png"
 st.image(image_path, caption='Data 2024 -https://venturebeat.com/games/niko-partners-mena-asia-market-report-2024/', use_column_width=True)
 
-st.title('Niko Partners Report on Asia & MENA Gaming Markets')
+st.header('Niko Partners Report on Asia & MENA Gaming Markets')
 
 # Display the report text
 report_text = """
