@@ -62,7 +62,7 @@ report_text = """
 
 - The combined revenue for Asia & MENA gaming markets was $85.5 billion in 2023, marking a 4.6% increase from the previous year.
 - For 2024, the forecasted growth rate is 2.5%, with expected revenue reaching $87.6 billion.
-- By 2028, the market is projected to approach nearly $100 billion ($97.1 billion) with a CAGR of 2.5%.
+- By 2028, the market is projected to approach nearly 100 billion (97.1 billion) with a CAGR of 2.5%.
 
 ## Top Items:
 
