@@ -58,13 +58,13 @@ st.header('Niko Partners Report on Asia & MENA Gaming Markets')
 
 # Display the report text
 report_text = """
-## Key Updates:
+### Key Updates:
 
 - The combined revenue for Asia & MENA gaming markets was $85.5 billion in 2023, marking a 4.6% increase from the previous year.
 - For 2024, the forecasted growth rate is 2.5%, with expected revenue reaching $87.6 billion.
 - By 2028, the market is projected to approach nearly 100 billion (97.1 billion) with a CAGR of 2.5%.
 
-## Top Items:
+### Top Items:
 
 - The number of gamers in Asia & MENA was 1.61 billion in 2023, over half of the world’s total gamers.
 - India is projected to contribute 72% of the growth in gamers, adding 277 million new gamers by 2028.
@@ -74,23 +74,24 @@ report_text = """
 
 “Asia and MENA remain critical in the global games market, and drivers to the growth in these regions include localization, increase in participation by female gamers, government support for esports, growth of out-of-app monetization of mobile games, and rising spending power.” said Lisa Hanson, CEO of Niko Partners. “In order to gain meaningful access, companies must get to know the local market realities and clearly understand the context behind the data they use for their strategic planning.”
 
-## Key Insights:
+### Key Insights:
 Revenue Projections: The SEA-6 region's gaming market is projected to reach 5.8 billion in 2023, with an expected increase to 7.2 billion by 2027. Mobile gaming dominates the market, accounting for 66% of the revenue, which is expected to grow to 70% by 2027​ (GamesIndustry.biz)​​ (Pocket Gamer)​.
 
-## Esports Growth: 
+### Esports Growth: 
 The esports market within the SEA-6 region is also growing, with significant participation rates across various games. The region's unique cultural diversity means each country has different preferences and trends in gaming​ (Mobile Marketing Reads)​​ (Niko Partners)​.
 
-## Popular Games and Platforms: 
+### Popular Games and Platforms: 
 Mobile games like Mobile Legends and Garena Free Fire are highly popular, with high download rates and revenue. PC games like League of Legends and Dota 2 also see significant engagement, especially in esports. Console gaming, while less dominant, has a strong presence with games like FIFA 22 and Call of Duty: Warzone​ (Newzoo)​.
 
 This data provides a comprehensive overview of the current gaming trends and statistics in the SEA-6 region. For more detailed reports and insights, you can refer to sources like Niko Partners and Newzoo.
 
-## Key Insights and Sources
-### Market Growth: 
+### Key Insights and Sources
+
+#### Market Growth: 
 The SEA-6 region, including Vietnam and Malaysia, continues to see significant growth in gaming, driven primarily by mobile gaming. The market is expected to see further growth in the coming years.
-### Esports Participation: 
+#### Esports Participation: 
 Esports is a major component of the gaming ecosystem in these countries, with substantial participation rates and viewership.
-### Popular Games and Genres: 
+#### Popular Games and Genres: 
 Mobile Legends, Free Fire, PUBG Mobile, and Genshin Impact are among the most popular games across these regions. On PC, games like League of Legends, Dota 2, and Valorant dominate, while console gamers prefer FIFA, Call of Duty, and Fortnite.
 These data points are based on a combination of sources including Newzoo and Niko Partners. For more detailed and up-to-date statistics, refer to their respective reports and market analyses.
 """
