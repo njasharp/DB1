@@ -10,6 +10,20 @@ st.markdown("<style>body {background-color: #212121;}</style>", unsafe_allow_htm
 # Load data
 data = pd.read_csv('sea_games.csv')
 
+# Custom CSS to hide the Streamlit menu and footer
+hide_menu_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    </style>
+    """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
+
+
+
+
+
 # Streamlit app title
 st.title("SEA-6 Gaming Market Analysis")
 st.divider()
@@ -97,4 +111,4 @@ These data points are based on a combination of sources including Newzoo and Nik
 """
 
 st.markdown(report_text)
-st.info("built by DW 6-8-24 - v1")
+st.info("built by DW 6-20-24 - v1.1")
