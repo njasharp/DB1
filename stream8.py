@@ -88,4 +88,4 @@ report_text = """
 """
 
 st.markdown(report_text)
-st.info("built by DW 6-20-24 - v1.1")
+st.info("built by DW 6-24-24 - v1.2")
