@@ -84,76 +84,77 @@ report_text = """
 - By 2028, there will be an estimated 1.87 billion mobile gamers, 606 million PC gamers, and 100 million console gamers.
 
 “Asia and MENA remain critical in the global games market, and drivers to the growth in these regions include localization, increase in participation by female gamers, government support for esports, growth of out-of-app monetization of mobile games, and rising spending power.” said Lisa Hanson, CEO of Niko Partners. “In order to gain meaningful access, companies must get to know the local market realities and clearly understand the context behind the data they use for their strategic planning.”
+### MENA Mobile Gaming Industry Overview
 
 The Middle East and North Africa region has catapulted into the spotlight as a formidable force in the mobile gaming industry, showcasing unparalleled potential and breakneck development. In fact, mobile gaming is currently the region’s major game industry growth driver. Leading this charge are the UAE and Saudi Arabia - both pivotal markets are turbocharging the mobile gaming boom. With cutting-edge technology, a dynamic youth population, and escalating disposable incomes, these nations are not just participating but are at the epicenter of a gaming revolution. Their influence is propelling the entire region forward, making MENA a hub of innovation and growth in the global mobile gaming arena. 
 
-Gamesforum delves into the ​​current state of mobile gaming in the region, exploring market size, growth trends, and the factors propelling this industry forward, with insight from industry leaders.
+The summary delves into the ​​current state of mobile gaming in the region, exploring market size, growth trends, and the factors propelling this industry forward, with insight from industry leaders.
 
-# MENA Mobile Gaming Industry Overview
 
-## Region's Growth
+
+#### Region's Growth
 - The Middle East and North Africa (MENA) region is rapidly becoming a major player in the mobile gaming industry, driven by technological advancements and a dynamic youth population.
 
-## Key Markets
+#### Key Markets
 - The UAE and Saudi Arabia are leading the charge, with significant contributions to the region's growth.
 
-## Technological Influence
+#### Technological Influence
 - Cutting-edge technology, including AR, VR, cloud gaming, and 5G, is fueling industry expansion.
 
-## Economic Factors
+#### Economic Factors
 - Increasing disposable incomes and high smartphone penetration are major growth drivers.
 
-# Market Size and Trends
+### Market Size and Trends
 
-## Market Expansion
+#### Market Expansion
 - Egypt, the UAE, and Saudi Arabia are the premier markets, expected to reach nearly 80 million users by 2027.
 
-## Popular Games
+#### Popular Games
 - **MENA-3 Region**: PUBG, EA Sports FC, and Call of Duty.
 - **General**: Candy Crush Saga, Subway Surfers, and Yalla Ludo.
 
-## Government Support
+#### Government Support
 - Dubai's Gaming Visa initiative aims to attract 30,000 game developers, boosting the local economy.
 
-# Country-Specific Growth
+### Country-Specific Growth
 
-## Jordan
+#### Jordan
 - Projected to reach $48 million in revenue by 2024, with 2.1 million users by 2027.
 
-## Egypt
+#### Egypt
 - Mobile gaming sector growing by 25% annually, supported by increasing smartphone adoption.
 
-# Increasing Smartphone Penetration
+### Increasing Smartphone Penetration
 
-## High Penetration Rates
+#### High Penetration Rates
 - UAE and Saudi Arabia have smartphone penetration rates exceeding 90%.
 
-## Accessibility
+#### Accessibility
 - Affordable smartphones make gaming accessible to a broad audience, boosting demand and market growth.
 
-# Gaming Preferences and Habits
+### Gaming Preferences and Habits
 
-## Youth and Teenagers
+#### Youth and Teenagers
 - Prefer competitive and interactive games like PUBG Mobile and Fortnite.
 
-## Young Adults
+#### Young Adults
 - Favor strategic and long-term engagement games like Clash of Clans and Call of Duty: Mobile.
 
-## Female Gamers
+#### Female Gamers
 - Increasing numbers drawn to casual and puzzle games like Candy Crush Saga and Ludo King.
 
-# Monetisation Challenges
+### Monetisation Challenges
 
-## Payment Systems
+#### Payment Systems
 - Diversity in payment systems and reliance on cash transactions pose barriers.
 
-## High Transaction Fees
+#### High Transaction Fees
 - Erode profit margins for developers.
 
-## Local Preferences
+#### Local Preferences
 - Companies need to integrate multiple payment gateways to cater to local preferences, adding complexity and cost.
 
-# Summary Table
+### Summary Table
 
 | Country            | Key Growth Drivers                       | Popular Games                        |
 |--------------------|------------------------------------------|--------------------------------------|
