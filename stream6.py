@@ -1,52 +1,53 @@
 import streamlit as st
-import pandas as pd
-import plotly.express as px
+import qrcode
+from PIL import Image
+import io
+import os
+import tempfile
 
-st.set_page_config (layout="wide")
+def create_qr_code(data, fill_color="black", back_color="white"):
+    qr = qrcode.QRCode(version=1, box_size=10, border=5)
+    qr.add_data(data)
+    qr.make(fit=True)
+    img = qr.make_image(fill_color=fill_color, back_color=back_color)
+    return img
 
-st.title("Dashboard")
-st.header("LLM Data", divider='green')
-st.subheader("**_Status:_** LLM 2")
-st.write("current")
-st.text("Jun 5, 2024")
-status = st.checkbox("use local data?")
-if status:
-    st.info("local session data")
+st.title("Image to QR Code Converter")
 
+uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
+
+if uploaded_file is not None:
+    # Create a temporary directory to store the uploaded image
+    with tempfile.TemporaryDirectory() as tmpdirname:
+        # Save the uploaded file to the temporary directory
+        file_path = os.path.join(tmpdirname, uploaded_file.name)
+        with open(file_path, "wb") as f:
+            f.write(uploaded_file.getbuffer())
+        
+        # Display the uploaded image
+        image = Image.open(file_path)
+        st.image(image, caption="Uploaded Image", use_column_width=True)
+        
+        # Create QR code with the local file path
+        qr_code = create_qr_code(file_path)
+        
+        # Convert QR code to bytes for Streamlit to display
+        qr_image = io.BytesIO()
+        qr_code.save(qr_image, format="PNG")
+        qr_image = qr_image.getvalue()
+        
+        # Display QR code
+        st.image(qr_image, caption="Generated QR Code", use_column_width=True)
+        
+        # Option to download QR code
+        st.download_button(
+            label="Download QR Code",
+            data=qr_image,
+            file_name="qr_code.png",
+            mime="image/png"
+        )
+        
+        st.write(f"Scan this QR code to view the image. The local path is: {file_path}")
 else:
-    st.warning("_not enabled_")
-
-df = pd.read_csv("aidata.csv")
-st.write(df)
-#st.dataframe(df, width = 1200 , height = 300)
-
-st.subheader("**_chart:_** plot")
-
-# Load data
-data = pd.read_csv('aidata.csv')
-
-# Streamlit app title
-st.title("AI Model Performance Scatter Plot")
-
-# Select columns for scatter plot axes
-columns = data.columns[1:]
-
-# Dropdowns for selecting benchmarks
-x_axis = st.selectbox('Select X-axis', columns)
-y_axis = st.selectbox('Select Y-axis', columns)
-
-# Scatter plot
-fig = px.scatter(data, x=x_axis, y=y_axis, color=data.index,
-                 title=f'Scatter Plot: {x_axis} vs {y_axis}')
-# Add labels and title with increased font size
-fig.update_layout(
-    title_font_size=24,
-    xaxis_title=x_axis,
-    yaxis_title=y_axis,
-    xaxis_title_font_size=20,
-    yaxis_title_font_size=20
-)
-
-# Display plot in Streamlit
-st.plotly_chart(fig)
-st.info("built by DW 6-5-24 - v1")
+    st.write("Please upload an image to generate a QR code.")
+st.info("built by DW 8-18-24 - v1")
